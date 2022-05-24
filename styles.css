@@ -8,10 +8,21 @@ main {
   width: 100%;
 }
 
+#intro-background {
+  width:100%;
+  z-index: -1;
+  position: relative;
+}
+
 #headline {
+  border: 2px solid #dedfe0;
+  border-radius: 3px;
+  background-color: white;
   color: #ec5242;
   text-align: center;
   margin: auto;
+  width: 90%;
+  margin-top: -5%;
 }
 
 #welcome {
@@ -27,6 +38,7 @@ h1 {
 @media (min-width: 768px){
   #headline {
     text-align: left;
-    width:fit-content;
+    padding-left: 7%;
+    width: 50%;
   }
 }
