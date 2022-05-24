@@ -15,14 +15,11 @@ main {
 }
 
 #headline {
-  border: 2px solid #dedfe0;
-  border-radius: 3px;
-  background-color: white;
   color: #ec5242;
   text-align: center;
   margin: auto;
   width: 90%;
-  margin-top: -5%;
+  margin-top: -25%;
 }
 
 #welcome {
@@ -35,10 +32,31 @@ h1 {
   font-weight: 1000;
 }
 
+#bio {
+  border: 2px solid #d3d3d3;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  color: #272a31;
+}
+
 @media (min-width: 768px){
   #headline {
     text-align: left;
     padding-left: 7%;
+    width: 50%;
+  }
+
+  #welcome {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #bio {
     width: 50%;
   }
 }
