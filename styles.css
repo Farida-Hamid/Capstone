@@ -4,14 +4,29 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+main {
+  width: 100%;
+}
+
+#headline {
+  color: #ec5242;
+  text-align: center;
+  margin: auto;
+}
+
 #welcome {
   font-size: 20px;
-  color: #ec5242;
   font-weight: 100;
 }
 
 h1 {
-  color: #ec5242;
   font-size: 30px;
   font-weight: 1000;
+}
+
+@media (min-width: 768px){
+  #headline {
+    text-align: left;
+    width:fit-content;
+  }
 }
