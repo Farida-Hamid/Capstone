@@ -41,6 +41,15 @@ h1 {
   color: #272a31;
 }
 
+#date {
+  color: #272a31;
+  font-weight: 200;
+  width: fit-content;
+  padding-top: 3%;
+  margin: auto;
+  font-size: 15px;
+}
+
 @media (min-width: 768px){
   #headline {
     text-align: left;
