@@ -23,11 +23,13 @@ main {
 }
 
 #headline {
-  color: #ec5242;
+  color: transparent;
   text-align: center;
   margin: auto;
   width: 90%;
   margin-top: -25%;
+  background: url('./images/orange.png') no-repeat;
+  -webkit-background-clip: text;
 }
 
 #welcome {
