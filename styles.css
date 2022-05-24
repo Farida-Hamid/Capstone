@@ -1,0 +1,17 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#welcome {
+  font-size: 20px;
+  color: #ec5242;
+  font-weight: 100;
+}
+
+h1 {
+  color: #ec5242;
+  font-size: 30px;
+  font-weight: 1000;
+}
