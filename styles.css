@@ -8,6 +8,14 @@ main {
   width: 100%;
 }
 
+#intro {
+  background: #ededed;
+  z-index: -1;
+  position: relative;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
 #intro-background {
   width:100%;
   z-index: -1;
