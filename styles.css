@@ -162,6 +162,7 @@ h1 {
 .container hr {
   width: 50px;
   margin: 0;
+  background-color: #d3d3d3;
 }
 
 @media (min-width: 768px){
