@@ -76,23 +76,35 @@ open.addEventListener('click', () => {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `
-  <section class="bg"></section>
-
-  <div class="all">
-    <button type='button' class="close-button">X</button>
     <ul class="list-popup">
-        <li><a href="#">About</a></li>
-        <li><a href="#program">Programs</a></li>
-        <li><a href="#" </a>Join</li>
-        <li><a href="#" </a>Sponsers</li>
-        <li><a href="#" </a>News</li>
+        <li><a id="closer1" href="#">About</a></li>
+        <li><a id="closer2" href="#program">Programs</a></li>
+        <li><a id="closer3" href="#" </a>Join</li>
+        <li><a id="closer4" href="#" </a>Sponsers</li>
+        <li><a id="closer5" href="#" </a>News</li>
     </ul>
-  </div>`;
+    <button type='button' class="close-button">X</button>
+    `;
 
-  window.appendChild(popup);
-  header.appendChild(window);
-  const close = document.querySelector('.close-button');
-  close.addEventListener('click', () => {
-    header.removeChild(window);
+    window.appendChild(popup);
+    header.appendChild(window);
+    const close = document.querySelector('.close-button');
+    close.addEventListener('click', () => {
+      header.removeChild(window);
+    });
+    document.querySelector('#closer1').addEventListener('click', () => {
+      header.removeChild(window);
+    });
+    document.querySelector('#closer2').addEventListener('click', () => {
+      header.removeChild(window);
+    });
+    document.querySelector('#closer3').addEventListener('click', () => {
+      header.removeChild(window);
+    });
+    document.querySelector('#closer4').addEventListener('click', () => {
+      header.removeChild(window);
+    });
+    document.querySelector('#closer5').addEventListener('click', () => {
+      header.removeChild(window);
+    });
   });
-});
