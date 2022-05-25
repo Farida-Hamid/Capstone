@@ -69,6 +69,41 @@ h1 {
   font-size: 15px;
 }
 
+#program {
+  background: #272a31;
+  padding: 5%;
+  align-items: center;
+}
+
+.program-header {
+  color: #ec5242;
+  align-self: center;
+  margin: auto;
+}
+
+.act {
+  display: flex;
+  background: #5d5e5b;
+  color: white;
+  padding: 3%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desciption {
+  width: 60%;
+}
+
+.act-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.act-name {
+  color: #ec5242;
+}
+
 @media (min-width: 768px){
   header {
     display: flex;
