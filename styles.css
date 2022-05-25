@@ -114,6 +114,10 @@ h1 {
   margin: 3%;
 }
 
+.stars h3 {
+  font-weight: 1000;
+}
+
 .stars h4 {
   color: #ec5242;
   font-weight: 80;
@@ -129,6 +133,11 @@ h1 {
 .headshot {
   width: 30%;
   height: auto;
+}
+
+hr {
+  width: 50px;
+  margin: 0;
 }
 
 @media (min-width: 768px){

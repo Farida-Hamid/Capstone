@@ -47,16 +47,15 @@ function participants(index) {
 
   const main = document.querySelector('.stars');
   const star = document.createElement('div');
-  star.className = 'container';
+  star.className = 'actor';
   star.innerHTML = `
-  <section class="actor">
     <img class="headshot" src=${image} alt="actor headshot">
     <div class="content">
       <h3>${name}</h3>
       <h4>${role}</h4>
+      <hr>
       <p>${bio}</p>
-    </div>
-  </section>`;
+    </div>`;
 
   main.appendChild(star);
 }
