@@ -213,6 +213,33 @@ a {
   padding: 10%;
 }
 
+.event {
+  width: 95%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.event img {
+  width: 300px;
+  height: 150px;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+.shade {
+  margin-top: 10%;
+  height: fit-content;
+  width: fit-content;
+  background-color: #ec5242;
+  gap: 5px;
+}
+
+.prev {
+  padding: 10%;
+}
+
 @media (min-width: 768px) {
   header {
     display: unset;
@@ -284,5 +311,9 @@ a {
     grid-template-columns: [col1-start] 50% [col1-end row2-start] 50% [col2-end];
     margin: auto;
     gap: 50px;
+  }
+
+  .event {
+    flex-direction: row;
   }
 }
