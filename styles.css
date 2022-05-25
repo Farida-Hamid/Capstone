@@ -79,6 +79,8 @@ h1 {
   color: #ec5242;
   align-self: center;
   margin: auto;
+  text-align: center;
+  padding: 10px;
 }
 
 .act {
@@ -86,7 +88,7 @@ h1 {
   background: #5d5e5b;
   color: white;
   padding: 3%;
-  margin: auto;
+  margin: 3%;
   align-items: center;
   justify-content: space-between;
 }
