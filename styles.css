@@ -86,10 +86,10 @@ h1 {
   display: flex;
   background: #5d5e5b;
   color: white;
-  padding: 0;
   margin: 3%;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px 0 20px;
 }
 
 .desciption {
