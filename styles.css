@@ -110,11 +110,20 @@ h1 {
   display: flex;
   max-width: 600px;
   flex-wrap: wrap;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.stars h4 {
+  color: #ec5242;
+  font-weight: 80;
+  font-style: italic;
 }
 
 .actor {
   display: flex;
   gap: 15px;
+  margin: 4% 0 4% 0;
 }
 
 .headshot {

@@ -52,10 +52,10 @@ function participants(index) {
   <section class="actor">
     <img class="headshot" src=${image} alt="actor headshot">
     <div class="content">
-      <h2>${name}</h2>
-      <h3>${role}</h3>
+      <h3>${name}</h3>
+      <h4>${role}</h4>
       <p>${bio}</p>
-    </div?
+    </div>
   </section>`;
 
   main.appendChild(star);
