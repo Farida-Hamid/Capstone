@@ -9,7 +9,7 @@ main {
 }
 
 #menue-button {
-  position:absolute;
+  position: absolute;
   width: 40px;
   margin: 5px;
   border: none;
@@ -40,7 +40,7 @@ main {
 }
 
 #intro-background {
-  width:100%;
+  width: 100%;
   z-index: -1;
   position: relative;
 }
@@ -135,15 +135,17 @@ h1 {
   font-weight: 80;
   font-style: italic;
 }
-.stars h2,
-.festiv h2 {
+.stars h2
+, .festiv h2
+, .prev h2 {
   text-align: center;
   font-size: 50px;
   margin:0
 }
 
 .stars hr,
-.festiv hr {
+.festiv hr,
+.prev hr {
   height: 1px;
   border: none;
   width: 50px;
@@ -200,7 +202,7 @@ a {
 }
 
 #jed-logo {
-  background-color:#ec5242;
+  background-color: #ec5242;
   width: 50%;
   margin: auto;
 }
@@ -211,7 +213,7 @@ a {
   padding: 10%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   header {
     display: unset;
   }
@@ -225,7 +227,7 @@ a {
 
   #mobile {
     display: none;
-    flex:none;
+    flex: none;
   }
 
   #navigator {
