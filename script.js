@@ -72,7 +72,7 @@ open.addEventListener('click', () => {
   popup.className = 'popup';
   popup.innerHTML = `
     <ul class="list-popup">
-        <li><a id="closer1" href="#">About</a></li>
+        <li><a id="closer1" href="./about.html">About</a></li>
         <li><a id="closer2" href="#program">Programs</a></li>
         <li><a id="closer3" href="#" </a>Join</li>
         <li><a id="closer4" href="#" </a>Sponsers</li>
