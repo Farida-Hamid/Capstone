@@ -65,14 +65,9 @@ for (let i = 0; i < 6; i += 1) {
 }
 
 const header = document.querySelector('body');
-const section = document.createElement('section');
-header.appendChild(section);
-
 const open = document.querySelector('#menue-button');
 
 open.addEventListener('click', () => {
-  const window = document.createElement('div');
-  window.className = 'window';
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `
@@ -86,25 +81,24 @@ open.addEventListener('click', () => {
     <button type='button' class="close-button">X</button>
     `;
 
-    window.appendChild(popup);
-    header.appendChild(window);
+    header.appendChild(popup);
     const close = document.querySelector('.close-button');
     close.addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
     document.querySelector('#closer1').addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
     document.querySelector('#closer2').addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
     document.querySelector('#closer3').addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
     document.querySelector('#closer4').addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
     document.querySelector('#closer5').addEventListener('click', () => {
-      header.removeChild(window);
+      header.removeChild(popup);
     });
   });
