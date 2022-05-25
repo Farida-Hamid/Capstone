@@ -107,10 +107,7 @@ h1 {
 
 .stars {
   color: #272a31;
-  display: flex;
   max-width: 600px;
-  flex-wrap: wrap;
-  flex-direction: row;
   margin: 3%;
 }
 
@@ -122,6 +119,18 @@ h1 {
   color: #ec5242;
   font-weight: 80;
   font-style: italic;
+}
+.stars h2 {
+  text-align: center;
+  font-size: 50px;
+  margin:0
+}
+
+.stars hr {
+  height: 1px;
+  border: none;
+  width: 50px;
+  background-color: #ec5242;
 }
 
 .actor {
@@ -135,7 +144,7 @@ h1 {
   height: auto;
 }
 
-hr {
+.container hr {
   width: 50px;
   margin: 0;
 }
@@ -190,5 +199,17 @@ hr {
 
   .desciption {
     margin: 10px;
+  }
+
+  .stars {
+    max-width: 100%;
+  }
+
+  .container {
+    display: grid;
+    width: 90%;
+    grid-template-columns: [col1-start] 50% [col1-end row2-start] 50% [col2-end];
+    margin: auto;
+    gap: 50px;
   }
 }

@@ -45,7 +45,7 @@ function participants(index) {
     role
   } = actors[index];
 
-  const main = document.querySelector('.stars');
+  const main = document.querySelector('.container');
   const star = document.createElement('div');
   star.className = 'actor';
   star.innerHTML = `
