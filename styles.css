@@ -72,10 +72,16 @@ h1 {
 @media (min-width: 768px){
   header {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
-    padding: 0 0 0 3%;
-    margin-right: 30%;
+    margin: auto;
+  }
+
+  #navigator {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
   }
 
   #headline {
