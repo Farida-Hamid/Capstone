@@ -59,6 +59,6 @@ function participants(index) {
   main.appendChild(star);
 }
 
-for (let i = 0; i < 4; i += 1) {
+for (let i = 0; i < 6; i += 1) {
   participants(i);
 }

@@ -105,6 +105,13 @@ h1 {
   color: #ec5242;
 }
 
+.stars {
+  color: #272a31;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
 @media (min-width: 768px){
   header {
     display: flex;
