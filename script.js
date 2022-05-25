@@ -63,3 +63,36 @@ function participants(index) {
 for (let i = 0; i < 6; i += 1) {
   participants(i);
 }
+
+const header = document.querySelector('body');
+const section = document.createElement('section');
+header.appendChild(section);
+
+const open = document.querySelector('#menue-button');
+
+open.addEventListener('click', () => {
+  const window = document.createElement('div');
+  window.className = 'window';
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+  popup.innerHTML = `
+  <section class="bg"></section>
+
+  <div class="all">
+    <button type='button' class="close-button">X</button>
+    <ul class="list-popup">
+        <li><a href="#">About</a></li>
+        <li><a href="#program">Programs</a></li>
+        <li><a href="#" </a>Join</li>
+        <li><a href="#" </a>Sponsers</li>
+        <li><a href="#" </a>News</li>
+    </ul>
+  </div>`;
+
+  window.appendChild(popup);
+  header.appendChild(window);
+  const close = document.querySelector('.close-button');
+  close.addEventListener('click', () => {
+    header.removeChild(window);
+  });
+});

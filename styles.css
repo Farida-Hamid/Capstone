@@ -8,7 +8,7 @@ main {
   width: 100%;
 }
 
-header {
+#web {
   display: none;
 }
 
@@ -151,10 +151,19 @@ h1 {
 
 @media (min-width: 768px){
   header {
+    display:unset;
+  }
+
+  #web {
     display: flex;
     width: 80%;
     justify-content: space-between;
     margin: auto;
+  }
+
+  #mobile {
+    display: none;
+    flex:none;
   }
 
   #navigator {
