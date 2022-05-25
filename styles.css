@@ -188,6 +188,14 @@ a {
   font-size: 30px;
 }
 
+.list-popup li {
+  margin: 20px;
+}
+
+.close-button {
+  margin: 20px;
+}
+
 @media (min-width: 768px){
   header {
     display: unset;
