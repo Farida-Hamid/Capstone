@@ -51,9 +51,11 @@ function participants(index) {
   star.innerHTML = `
   <section class="actor">
     <img class="headshot" src=${image} alt="actor headshot">
-    <h2>${name}</h2>
-    <h3>${role}</h3>
-    <p>${bio}</p>
+    <div class="content">
+      <h2>${name}</h2>
+      <h3>${role}</h3>
+      <p>${bio}</p>
+    </div?
   </section>`;
 
   main.appendChild(star);
