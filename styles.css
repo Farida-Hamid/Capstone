@@ -21,7 +21,6 @@ header {
   background: #ededed;
   z-index: -1;
   position: relative;
-  margin-bottom: 10%;
   padding-bottom: 10%;
 }
 
@@ -87,7 +86,7 @@ h1 {
   display: flex;
   background: #5d5e5b;
   color: white;
-  padding: 3%;
+  padding: 0;
   margin: 3%;
   align-items: center;
   justify-content: space-between;
@@ -137,5 +136,24 @@ h1 {
 
   #bio {
     width: 50%;
+  }
+
+  #acts-container {
+    display: flex;
+  }
+
+  .act {
+    flex-direction: column;
+    margin: 3px;
+    padding: 20px 0 20px 0;
+    width: fit-content;
+  }
+
+  .act-name {
+    margin: 10px;
+  }
+
+  .desciption {
+    margin: 10px;
   }
 }
