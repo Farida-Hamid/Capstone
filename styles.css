@@ -8,6 +8,21 @@ main {
   width: 100%;
 }
 
+#menue-button {
+  position:absolute;
+  width: 40px;
+  margin: 5px;
+  border: none;
+  background: transparent;
+}
+
+#menue-button hr {
+  padding: 0;
+  height: 3px;
+  border: none;
+  background-color: #272a31;
+}
+
 #web {
   display: none;
 }
@@ -151,7 +166,7 @@ h1 {
 
 @media (min-width: 768px){
   header {
-    display:unset;
+    display: unset;
   }
 
   #web {
