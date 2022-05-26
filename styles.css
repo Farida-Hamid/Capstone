@@ -257,6 +257,20 @@ a {
   padding: 10%;
 }
 
+#white {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#white img{
+  filter: invert(70%);
+  width: 200px;
+  height: auto;
+  color:#5d5e5b;
+}
+
 @media (min-width: 768px) {
   header {
     display: unset;
