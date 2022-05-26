@@ -148,13 +148,14 @@ h1 {
 , .festiv h2
 , .prev h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   margin:0
 }
 
 .stars hr,
 .festiv hr,
-.prev hr {
+.prev hr
+, footer hr {
   height: 1px;
   border: none;
   width: 50px;
@@ -348,10 +349,13 @@ footer {
     display: inline;
   }
 
-  #partners {
-    background: #5d5e5b;
-    display: flex;
+  #top {
+    background-color: #5d5e5b;
     padding: 5% 10%;
+  }
+
+  #partners {
+    display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
@@ -366,11 +370,19 @@ footer {
     justify-content: center;
     gap: 100px;
     padding: 5%;
+    background: #fff;
   }
 
   footer img {
     width: 200px;
     height: auto;
+  }
+
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #d3d3d3;
+    margin: 0;
   }
 
   #white img {
@@ -380,11 +392,10 @@ footer {
   #black {
     display: flex;
     width: 100%;
-    background: #5d5e5b;
     color: #fff;
     gap: 100px;
     justify-content: center;
     padding: 5%;
+    background-color: #5d5e5b;
   }
-
 }
