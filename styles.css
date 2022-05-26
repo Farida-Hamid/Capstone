@@ -214,11 +214,10 @@ a {
 }
 
 .event {
-  width: fit-content;
   display: flex;
-  padding: auto;
   justify-content: space-between;
   flex-direction: column;
+  gap: 5px;
 }
 
 .event img {
@@ -233,7 +232,6 @@ a {
   height: fit-content;
   width: fit-content;
   background-color: #ec5242;
-  gap: 5px;
 }
 
 .prev {
@@ -315,5 +313,6 @@ a {
 
   .event {
     flex-direction: row;
+    max-width: 800px;
   }
 }
