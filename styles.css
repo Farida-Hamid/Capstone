@@ -350,11 +350,15 @@ footer {
 
   #partners {
     background: #5d5e5b;
+    display: flex;
+    padding: 5% 10%;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   #partners img {
-    width: 20%;
-    height: auto;
+    filter: grayscale(100%)
   }
 
   #white {
