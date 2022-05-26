@@ -127,7 +127,6 @@ h1 {
   color: #fff;
   padding: 7%;
   font-size: 20px;
-  align-self: center;
 }
 
 .stars {
@@ -177,6 +176,16 @@ h1 {
   width: 50px;
   margin: 0;
   background-color: #d3d3d3;
+}
+
+.stars button {
+  width: 80%;
+  margin: 10%;
+  color: #272a31;
+  padding: 3%;
+  font-size: 20px;
+  background-color: #fff;
+  border-color: 1px solid #d3d3d3;
 }
 
 a {
@@ -309,7 +318,8 @@ a {
     margin: 10px;
   }
 
-  #program button {
+  #program button
+  , .stars button {
     display: none;
   }
 
