@@ -360,6 +360,7 @@ footer {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 30px 0;
   }
 
   footer img {
