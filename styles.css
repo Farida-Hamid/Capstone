@@ -120,6 +120,16 @@ h1 {
   color: #ec5242;
 }
 
+#program button {
+  width: 80%;
+  margin: 10%;
+  background: #ec5242;
+  color: #fff;
+  padding: 7%;
+  font-size: 20px;
+  align-self: center;
+}
+
 .stars {
   color: #272a31;
   max-width: 600px;
@@ -297,6 +307,10 @@ a {
 
   .desciption {
     margin: 10px;
+  }
+
+  #program button {
+    display: none;
   }
 
   .stars {
