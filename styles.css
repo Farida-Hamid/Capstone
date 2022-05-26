@@ -348,10 +348,20 @@ footer {
     display: inline;
   }
 
+  #partners {
+    background: #5d5e5b;
+  }
+
+  #partners img {
+    width: 20%;
+    height: auto;
+  }
+
   #white {
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 5%;
   }
 
   footer img {
