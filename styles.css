@@ -236,9 +236,10 @@ a {
 
 .event {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 30px;
+  margin: auto;
 }
 
 .event img {
@@ -342,7 +343,7 @@ footer {
 
   .event {
     flex-direction: row;
-    max-width: 800px;
+    justify-content: center;
   }
 
   footer {
