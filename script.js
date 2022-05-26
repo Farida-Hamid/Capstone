@@ -65,7 +65,7 @@ for (let i = 0; i < 6; i += 1) {
 }
 
 const header = document.querySelector('body');
-const open = document.querySelector('#menue-button');
+const open = document.querySelector('.menue-button');
 
 open.addEventListener('click', () => {
   const popup = document.createElement('div');

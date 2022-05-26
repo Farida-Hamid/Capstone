@@ -8,7 +8,7 @@ main {
   width: 100%;
 }
 
-#menue-button {
+.menue-button {
   position: absolute;
   width: 40px;
   margin: 5px;
@@ -16,11 +16,11 @@ main {
   background: transparent;
 }
 
-#menue-button hr {
-  padding: 0;
-  height: 3px;
-  border: none;
+.menue-button div {
+  width: 35px;
+  height: 5px;
   background-color: #272a31;
+  margin: 6px 0;
 }
 
 #web {
@@ -214,9 +214,9 @@ a {
 }
 
 .event {
-  width: 95%;
+  width: fit-content;
   display: flex;
-  margin: auto;
+  padding: auto;
   justify-content: space-between;
   flex-direction: column;
 }
