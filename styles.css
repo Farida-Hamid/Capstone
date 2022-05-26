@@ -264,11 +264,23 @@ a {
   margin: auto;
 }
 
-#white img{
-  filter: invert(70%);
+footer img {
   width: 200px;
   height: auto;
-  color:#5d5e5b;
+}
+
+#white img {
+  filter: invert(70%);
+}
+
+#black {
+  display: flex;
+  width: 100%;
+  background: #5d5e5b;
+  color: #fff;
+  gap: 100px;
+  justify-content: center;
+  padding: 5%;
 }
 
 @media (min-width: 768px) {
