@@ -1,3 +1,48 @@
+const open = document.querySelectorAll('.menue-button');
+console.log('l= ', open.length);
+
+function menu() {
+  const header = document.querySelector('body');
+
+    const popup = document.createElement('div');
+    popup.className = 'popup';
+    popup.innerHTML = `
+      <ul class="list-popup">
+          <li><a id="closer1" href="./about.html">About</a></li>
+          <li><a id="closer2" href="#program">Programs</a></li>
+          <li><a id="closer3" href="#" </a>Join</li>
+          <li><a id="closer4" href="#" </a>Sponsers</li>
+          <li><a id="closer5" href="#" </a>News</li>
+      </ul>
+      <button type='button' class="close-button">X</button>
+      `;
+
+    header.appendChild(popup);
+    const close = document.querySelector('.close-button');
+    close.addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer1').addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer2').addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer3').addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer4').addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer5').addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+}
+
+for (let i = 0; i < open.length; i += 1) {
+  open[i].addEventListener('click', () => menu());
+}
+
 const actors = [
   {
     image: './images/actor1.png',
@@ -63,42 +108,3 @@ function participants(index) {
 for (let i = 0; i < 6; i += 1) {
   participants(i);
 }
-
-const header = document.querySelector('body');
-const open = document.querySelector('.menue-button');
-
-open.addEventListener('click', () => {
-  const popup = document.createElement('div');
-  popup.className = 'popup';
-  popup.innerHTML = `
-    <ul class="list-popup">
-        <li><a id="closer1" href="./about.html">About</a></li>
-        <li><a id="closer2" href="#program">Programs</a></li>
-        <li><a id="closer3" href="#" </a>Join</li>
-        <li><a id="closer4" href="#" </a>Sponsers</li>
-        <li><a id="closer5" href="#" </a>News</li>
-    </ul>
-    <button type='button' class="close-button">X</button>
-    `;
-
-  header.appendChild(popup);
-  const close = document.querySelector('.close-button');
-  close.addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-  document.querySelector('#closer1').addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-  document.querySelector('#closer2').addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-  document.querySelector('#closer3').addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-  document.querySelector('#closer4').addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-  document.querySelector('#closer5').addEventListener('click', () => {
-    header.removeChild(popup);
-  });
-});

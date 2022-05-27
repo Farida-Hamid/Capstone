@@ -186,6 +186,11 @@ footer hr,
   margin: 4% 0 4% 0;
 }
 
+.actor img {
+  padding: 3%;
+  background: url('./images/chess.jpg') no-repeat;
+}
+
 .headshot {
   width: 30%;
   height: auto;
