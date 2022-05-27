@@ -1,0 +1,441 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+.menue-button {
+  position: absolute;
+  width: 40px;
+  margin: 5px;
+  border: none;
+  background: transparent;
+}
+
+.menue-button div {
+  width: 35px;
+  height: 5px;
+  background-color: #272a31;
+  margin: 6px 0;
+}
+
+#web {
+  display: none;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+.start {
+  display: none;
+}
+
+.social {
+  width: 25px;
+}
+
+#intro {
+  background: #ededed;
+  z-index: -1;
+  position: relative;
+  padding-bottom: 10%;
+}
+
+#intro-background {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+#headline {
+  color: transparent;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  margin-top: -25%;
+  background: url('./images/orange.png') no-repeat;
+  -webkit-background-clip: text;
+}
+
+#welcome {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+#bio {
+  border: 2px solid #d3d3d3;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  color: #272a31;
+}
+
+#date {
+  color: #272a31;
+  font-weight: 200;
+  width: fit-content;
+  padding-top: 3%;
+  margin: auto;
+  font-size: 15px;
+}
+
+#program {
+  background: url('./images/bg-programs.png');
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.program-header {
+  color: #ec5242;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.act {
+  background: rgba(225, 225, 225, 0.2);
+  display: flex;
+  color: white;
+  margin: 3%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.desciption {
+  width: 60%;
+}
+
+.act-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.act-name {
+  color: #ec5242;
+}
+
+#more {
+  display: none;
+}
+
+.stars button {
+  width: 80%;
+  margin: 10%;
+  color: #272a31;
+  padding: 3%;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+#tickets {
+  width: 80%;
+  margin: 10%;
+  background: #ec5242;
+  color: #fff;
+  padding: 7%;
+  font-size: 20px;
+}
+
+.stars {
+  color: #272a31;
+  max-width: 600px;
+  margin: 3%;
+}
+
+.stars h3 {
+  font-weight: 1000;
+}
+
+.stars h4 {
+  color: #ec5242;
+  font-weight: 80;
+  font-style: italic;
+}
+
+.stars h2,
+.festiv h2,
+.prev h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+
+footer hr,
+.stars hr,
+.festiv hr,
+.prev hr {
+  height: 1px;
+  border: none;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.actor {
+  display: flex;
+  gap: 15px;
+  margin: 4% 0 4% 0;
+}
+
+.actor img {
+  padding: 3%;
+  background: url('./images/chess.jpg') no-repeat;
+}
+
+.headshot {
+  width: 30%;
+  height: auto;
+}
+
+.container hr {
+  width: 50px;
+  margin: 0;
+  background-color: #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.popup {
+  position: fixed;
+  background: #272a31;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.list-popup {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.list-popup li {
+  margin: 20px;
+}
+
+.close-button {
+  margin: 20px;
+}
+
+#jed-logo {
+  background-color: #ec5242;
+  width: 50%;
+  margin: auto;
+}
+
+.festiv {
+  color: #272a31;
+  text-align: center;
+  padding: 10%;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+}
+
+.event img {
+  width: 300px;
+  height: 150px;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+.shade {
+  margin-top: 20px;
+  width: fit-content;
+  background-color: #ec5242;
+}
+
+.prev {
+  padding: 10%;
+}
+
+footer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: unset;
+  }
+
+  .start {
+    height: 30px;
+    color: #fff;
+    background: #272a31;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    padding: 10px 10% 10px 0;
+    align-items: center;
+  }
+
+  #web {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  #mobile {
+    display: none;
+    flex: none;
+  }
+
+  #navigator {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+  }
+
+  #headline {
+    text-align: left;
+    padding-left: 7%;
+    width: 50%;
+  }
+
+  #welcome {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #bio {
+    width: 50%;
+  }
+
+  #acts-container {
+    display: flex;
+  }
+
+  .act {
+    flex-direction: column;
+    margin: 3px;
+    padding: 20px 0 20px 0;
+    width: fit-content;
+  }
+
+  .act-name {
+    margin: 10px;
+  }
+
+  .desciption {
+    margin: 10px;
+  }
+
+  .stars button,
+  #tickets {
+    display: none;
+  }
+
+  #more {
+    display: inline;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .stars {
+    max-width: 100%;
+  }
+
+  .container {
+    display: grid;
+    width: 90%;
+    grid-template-columns: [col1-start] 50% [col1-end row2-start] 50% [col2-end];
+    margin: auto;
+    gap: 50px;
+  }
+
+  .event {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer {
+    display: inline;
+  }
+
+  #top {
+    background-color: #5d5e5b;
+    padding: 5% 10%;
+  }
+
+  #partners {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  footer img {
+    width: 200px;
+    height: auto;
+  }
+
+  #partners img {
+    filter: grayscale(100%);
+  }
+
+  #white {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 5%;
+    background: #fff;
+  }
+
+  footer h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #d3d3d3;
+    margin: 0;
+  }
+
+  #white img {
+    filter: invert(70%);
+  }
+
+  #black {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    gap: 100px;
+    justify-content: center;
+    padding: 5%;
+    background-color: #5d5e5b;
+  }
+}
