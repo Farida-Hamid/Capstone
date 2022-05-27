@@ -8,6 +8,7 @@ function menu() {
     popup.className = 'popup';
     popup.innerHTML = `
       <ul class="list-popup">
+          <li><a id="closer0" href="./indes.html">Home</a></li>
           <li><a id="closer1" href="./about.html">About</a></li>
           <li><a id="closer2" href="#program">Programs</a></li>
           <li><a id="closer3" href="#" </a>Join</li>
@@ -20,6 +21,9 @@ function menu() {
     header.appendChild(popup);
     const close = document.querySelector('.close-button');
     close.addEventListener('click', () => {
+      header.removeChild(popup);
+    });
+    document.querySelector('#closer').addEventListener('click', () => {
       header.removeChild(popup);
     });
     document.querySelector('#closer1').addEventListener('click', () => {
