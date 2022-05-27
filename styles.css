@@ -101,8 +101,8 @@ h1 {
 }
 
 .act {
+  background: rgba(225, 225, 225, 0.2);
   display: flex;
-  background: #5d5e5b;
   color: white;
   margin: 3%;
   align-items: center;
