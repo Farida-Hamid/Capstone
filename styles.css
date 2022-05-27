@@ -84,7 +84,7 @@ h1 {
 }
 
 #program {
-  background: #272a31;
+  background: url('./images/bg-programs.png');
   padding: 5%;
   align-items: center;
 }
